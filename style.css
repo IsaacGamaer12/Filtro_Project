@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(rgb(114, 10, 232), rgb(0, 110, 255), rgb(198, 26, 255));
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    background-color: rgb(42, 162, 236);
+}
+
+button{
+    color:black;
+    background-color: rgb(16, 219, 255);
+}
+
+canvas{
+    animation-name: example; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{ box-shadow: 3px 3px 3px rgb(47, 255, 168);}
+    to{ box-shadow: 3px 3px 40px rgb(187, 7, 252);}
+}
